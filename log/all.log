@@ -4,3 +4,93 @@
 [01 03 13:26:59] [INFO]  __main__/78 || image save succeed||path=./imgs/ScreenShots/1_3_13_26_59.png||spendTime=0.14316892623901367
 [01 03 13:28:35] [INFO]  __main__/78 || image save succeed||path=./imgs/ScreenShots/1_3_13_28_35.png||spendTime=0.14559412002563477 s
 [01 03 13:29:40] [INFO]  __main__/78 || image save succeed||path=./imgs/ScreenShots/1_3_13_29_39.png||spendTime=0.416262149810791 s
+[01 03 16:00:52] [INFO]  __main__/97 || image save succeed||path=./imgs/ScreenShots/1_3_16_0_52.png||spendTime=0.20426130294799805Second
+[01 03 16:16:53] [INFO]  __main__/97 || image save succeed||path=./imgs/ScreenShots/1_3_16_16_53.png||spendTime=0.386005163192749Second
+[01 03 16:16:53] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:16:53] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:17:35] [INFO]  __main__/98 || image save succeed||path=./imgs/ScreenShots/1_3_16_17_35.png||spendTime=0.37134742736816406Second
+[01 03 16:17:35] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:17:35] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:18:16] [INFO]  __main__/97 || image save succeed||path=./imgs/ScreenShots/1_3_16_18_16.png||spendTime=0.28926992416381836Second
+[01 03 16:18:16] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:18:16] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:18:30] [INFO]  __main__/97 || image save succeed||path=./imgs/ScreenShots/1_3_16_18_30.png||spendTime=0.45437097549438477Second
+[01 03 16:19:37] [INFO]  __main__/96 || image save succeed||path=./imgs/ScreenShots/1_3_16_19_36.png||spendTime=0.4045708179473877Second
+[01 03 16:19:47] [INFO]  __main__/96 || image save succeed||path=./imgs/ScreenShots/1_3_16_19_47.png||spendTime=0.41441917419433594Second
+[01 03 16:19:47] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:19:47] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:20:01] [INFO]  __main__/96 || image save succeed||path=./imgs/ScreenShots/1_3_16_20_1.png||spendTime=0.4397139549255371Second
+[01 03 16:20:01] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:20:01] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:20:28] [INFO]  __main__/96 || image save succeed||path=./imgs/ScreenShots/1_3_16_20_28.png||spendTime=0.47199392318725586Second
+[01 03 16:20:28] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:20:28] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:21:08] [INFO]  __main__/96 || image save succeed||path=./imgs/ScreenShots/1_3_16_21_8.png||spendTime=0.38553428649902344Second
+[01 03 16:21:08] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:21:08] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:25:30] [INFO]  __main__/105 || image save succeed||path=./imgs/ScreenShots/1_3_16_25_30.png||spendTime=0.3576328754425049Second
+[01 03 16:25:30] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:25:30] [WARNING]  easyocr.easyocr/88 || Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:28:23] [INFO]  easyocr.easyocr/92 || Download complete
+[01 03 16:28:23] [WARNING]  easyocr.easyocr/185 || Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:29:06] [INFO]  easyocr.easyocr/189 || Download complete.
+[01 03 16:36:40] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_36_40.png||spendTime=0.3889017105102539Second
+[01 03 16:36:58] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_36_58.png||spendTime=0.3605656623840332Second
+[01 03 16:39:32] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_39_32.png||spendTime=0.41969895362854004Second
+[01 03 16:39:55] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_39_54.png||spendTime=0.380612850189209Second
+[01 03 16:40:16] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_40_15.png||spendTime=0.39089179039001465Second
+[01 03 16:40:49] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_40_48.png||spendTime=0.3884284496307373Second
+[01 03 16:42:07] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_42_6.png||spendTime=0.3849935531616211Second
+[01 03 16:42:16] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_42_16.png||spendTime=0.4113767147064209Second
+[01 03 16:42:31] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_42_30.png||spendTime=0.40015721321105957Second
+[01 03 16:42:42] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_42_42.png||spendTime=0.4358048439025879Second
+[01 03 16:43:34] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_43_34.png||spendTime=0.3747880458831787Second
+[01 03 16:44:36] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_44_36.png||spendTime=0.3860054016113281Second
+[01 03 16:45:08] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_45_7.png||spendTime=0.3561861515045166Second
+[01 03 16:45:47] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_45_47.png||spendTime=0.36012840270996094Second
+[01 03 16:47:19] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_47_19.png||spendTime=0.36012768745422363Second
+[01 03 16:47:19] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:57:08] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_57_8.png||spendTime=0.34590840339660645Second
+[01 03 16:57:08] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:58:21] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_58_21.png||spendTime=0.34641289710998535Second
+[01 03 16:58:21] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:59:16] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_59_16.png||spendTime=0.12507390975952148Second
+[01 03 16:59:16] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 16:59:16] [WARNING]  easyocr.easyocr/185 || Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+[01 03 16:59:59] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_16_59_59.png||spendTime=0.1544206142425537Second
+[01 03 16:59:59] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 17:00:13] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_17_0_13.png||spendTime=0.3620481491088867Second
+[01 03 17:00:13] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 17:00:18] [INFO]  easyocr.easyocr/189 || Download complete.
+[01 03 17:00:32] [INFO]  __main__/115 || image save succeed||path=./imgs/ScreenShots/1_3_17_0_32.png||spendTime=0.3620479106903076Second
+[01 03 17:00:32] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 17:01:17] [INFO]  __main__/116 || image save succeed||path=./imgs/ScreenShots/1_3_17_1_17.png||spendTime=0.3527815341949463Second
+[01 03 17:01:17] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 17:02:04] [INFO]  __main__/116 || image save succeed||path=./imgs/ScreenShots/1_3_17_2_4.png||spendTime=0.3410227298736572Second
+[01 03 17:15:31] [INFO]  __main__/116 || image save succeed||path=./imgs/ScreenShots/1_3_17_15_31.png||spendTime=0.3322768211364746Second
+[01 03 17:15:31] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 03 17:26:41] [INFO]  __main__/116 || image save succeed||path=./imgs/ScreenShots/1_3_17_26_41.png||spendTime=0.35817551612854004Second
+[01 03 17:29:27] [INFO]  __main__/117 || image save succeed||path=./imgs/ScreenShots/1_3_17_29_26.png||spendTime=0.34934568405151367Second
+[01 03 17:30:42] [INFO]  __main__/117 || image save succeed||path=./imgs/ScreenShots/1_3_17_30_42.png||spendTime=0.36497950553894043Second
+[01 03 17:33:07] [INFO]  __main__/117 || image save succeed||path=./imgs/ScreenShots/1_3_17_33_7.png||spendTime=0.3312513828277588Second
+[01 03 17:36:43] [INFO]  __main__/121 || image save succeed||path=./imgs/ScreenShots/1_3_17_36_43.png||spendTime=0.16271185874938965Second
+[01 03 17:38:22] [INFO]  __main__/121 || image save succeed||path=./imgs/ScreenShots/1_3_17_38_21.png||spendTime=0.3767361640930176Second
+[01 03 17:43:39] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_43_39.png||spendTime=0.2794978618621826Second
+[01 03 17:44:03] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_44_2.png||spendTime=0.2550697326660156Second
+[01 03 17:44:35] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_44_34.png||spendTime=0.24623942375183105Second
+[01 03 17:44:52] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_44_51.png||spendTime=0.26675963401794434Second
+[01 03 17:44:56] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_44_56.png||spendTime=0.28438305854797363Second
+[01 03 17:45:15] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_45_15.png||spendTime=0.2804744243621826Second
+[01 03 17:45:52] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_45_52.png||spendTime=0.26480555534362793Second
+[01 03 17:47:10] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_47_10.png||spendTime=0.27071690559387207Second
+[01 03 17:47:25] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_47_25.png||spendTime=0.2814171314239502Second
+[01 03 17:48:26] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_48_26.png||spendTime=0.3068222999572754Second
+[01 03 17:48:41] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_48_41.png||spendTime=0.3019697666168213Second
+[01 03 17:48:57] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_48_56.png||spendTime=0.27312755584716797Second
+[01 03 17:49:08] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_49_7.png||spendTime=0.34023284912109375Second
+[01 03 17:49:22] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_49_21.png||spendTime=0.3537256717681885Second
+[01 03 17:51:33] [INFO]  __main__/129 || image save succeed||path=./imgs/ScreenShots/1_3_17_51_33.png||spendTime=0.35177135467529297Second
+[01 03 17:51:46] [INFO]  __main__/129 || image save succeed||path=./imgs/ScreenShots/1_3_17_51_46.png||spendTime=0.35274767875671387Second
+[01 03 17:51:59] [INFO]  __main__/130 || image save succeed||path=./imgs/ScreenShots/1_3_17_51_58.png||spendTime=0.3400454521179199Second
+[01 03 17:56:07] [INFO]  __main__/124 || image save succeed||path=./imgs/ScreenShots/1_3_17_56_7.png||spendTime=0.3327348232269287Second
+[01 03 17:56:29] [INFO]  __main__/125 || image save succeed||path=./imgs/ScreenShots/1_3_17_56_29.png||spendTime=0.2882571220397949Second
