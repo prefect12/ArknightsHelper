@@ -1,0 +1,262 @@
+[01 03 23:35:18] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:35:19] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_18.png||spendTime=0.3337104320526123Second
+[01 03 23:35:20] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:35:20] [INFO]  __main__/55 || current Operate:startOperationInOperatorView
+[01 03 23:35:20] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_20.png||spendTime=0.25897645950317383Second
+[01 03 23:35:21] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:35:21] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:21] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_21.png||spendTime=0.2569887638092041Second
+[01 03 23:35:27] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:27] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_27.png||spendTime=0.3454453945159912Second
+[01 03 23:35:32] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:32] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_32.png||spendTime=0.416262149810791Second
+[01 03 23:35:38] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:38] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_38.png||spendTime=0.44075989723205566Second
+[01 03 23:35:43] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:43] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_43.png||spendTime=0.42458534240722656Second
+[01 03 23:35:49] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:49] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_49.png||spendTime=0.42215919494628906Second
+[01 03 23:35:54] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:35:55] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_35_54.png||spendTime=0.435805082321167Second
+[01 03 23:36:00] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:00] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_0.png||spendTime=0.4275176525115967Second
+[01 03 23:36:05] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:06] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_5.png||spendTime=0.4593384265899658Second
+[01 03 23:36:11] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:11] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_11.png||spendTime=0.406996488571167Second
+[01 03 23:36:16] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:17] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_16.png||spendTime=0.41238856315612793Second
+[01 03 23:36:22] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:22] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_22.png||spendTime=0.4060208797454834Second
+[01 03 23:36:27] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:28] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_27.png||spendTime=0.43927836418151855Second
+[01 03 23:36:33] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:33] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_33.png||spendTime=0.3928976058959961Second
+[01 03 23:36:38] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:39] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_38.png||spendTime=0.4129469394683838Second
+[01 03 23:36:44] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:44] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_44.png||spendTime=0.4333782196044922Second
+[01 03 23:36:49] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:50] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_49.png||spendTime=0.4064905643463135Second
+[01 03 23:36:55] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:36:55] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_36_55.png||spendTime=0.4177827835083008Second
+[01 03 23:37:00] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:01] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_0.png||spendTime=0.4309196472167969Second
+[01 03 23:37:06] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:06] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_6.png||spendTime=0.42458534240722656Second
+[01 03 23:37:11] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:12] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_11.png||spendTime=0.4313666820526123Second
+[01 03 23:37:17] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:17] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_17.png||spendTime=0.42603325843811035Second
+[01 03 23:37:22] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:23] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_22.png||spendTime=0.45301365852355957Second
+[01 03 23:37:28] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:28] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_28.png||spendTime=0.44974493980407715Second
+[01 03 23:37:33] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:34] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_33.png||spendTime=0.44510531425476074Second
+[01 03 23:37:39] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:39] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_39.png||spendTime=0.1206960678100586Second
+[01 03 23:37:44] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:44] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_44.png||spendTime=0.39186692237854004Second
+[01 03 23:37:51] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:37:51] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:37:51] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_51.png||spendTime=0.3029501438140869Second
+[01 03 23:37:56] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:37:56] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_56.png||spendTime=0.34152841567993164Second
+[01 03 23:37:57] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:37:57] [INFO]  __main__/55 || current Operate:startOperationInOperatorView
+[01 03 23:37:58] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_57.png||spendTime=0.2501833438873291Second
+[01 03 23:37:59] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:37:59] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:37:59] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_37_59.png||spendTime=0.24479055404663086Second
+[01 03 23:38:04] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:05] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_4.png||spendTime=0.45194482803344727Second
+[01 03 23:38:10] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:10] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_10.png||spendTime=0.42020511627197266Second
+[01 03 23:38:15] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:16] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_15.png||spendTime=0.44655346870422363Second
+[01 03 23:38:21] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:21] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_21.png||spendTime=0.4348275661468506Second
+[01 03 23:38:26] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:27] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_26.png||spendTime=0.44803667068481445Second
+[01 03 23:38:32] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:32] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_32.png||spendTime=0.4162619113922119Second
+[01 03 23:38:37] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:38] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_37.png||spendTime=0.4480714797973633Second
+[01 03 23:38:43] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:43] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_43.png||spendTime=0.4329073429107666Second
+[01 03 23:38:48] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:49] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_48.png||spendTime=0.4382650852203369Second
+[01 03 23:38:54] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:38:54] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_54.png||spendTime=0.4730086326599121Second
+[01 03 23:38:59] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:00] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_38_59.png||spendTime=0.42798805236816406Second
+[01 03 23:39:05] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:05] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_5.png||spendTime=0.4456498622894287Second
+[01 03 23:39:10] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:11] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_10.png||spendTime=0.435805082321167Second
+[01 03 23:39:16] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:16] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_16.png||spendTime=0.42896533012390137Second
+[01 03 23:39:21] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:22] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_21.png||spendTime=0.4328737258911133Second
+[01 03 23:39:27] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:27] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_27.png||spendTime=0.42701101303100586Second
+[01 03 23:39:33] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:33] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_33.png||spendTime=0.47879862785339355Second
+[01 03 23:39:38] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:39] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_38.png||spendTime=0.48763298988342285Second
+[01 03 23:39:44] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:44] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_44.png||spendTime=0.4475679397583008Second
+[01 03 23:39:49] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:50] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_49.png||spendTime=0.42212510108947754Second
+[01 03 23:39:55] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:39:55] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_39_55.png||spendTime=0.5462591648101807Second
+[01 03 23:40:00] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:01] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_0.png||spendTime=0.49056148529052734Second
+[01 03 23:40:06] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:07] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_6.png||spendTime=0.49251747131347656Second
+[01 03 23:40:12] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:12] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_12.png||spendTime=0.46175265312194824Second
+[01 03 23:40:17] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:18] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_17.png||spendTime=0.46805238723754883Second
+[01 03 23:40:23] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:23] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_23.png||spendTime=0.4446723461151123Second
+[01 03 23:40:28] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:29] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_28.png||spendTime=0.4441647529602051Second
+[01 03 23:40:34] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:34] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_34.png||spendTime=0.5057377815246582Second
+[01 03 23:40:39] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:40] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_39.png||spendTime=0.37717628479003906Second
+[01 03 23:40:46] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:40:46] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:40:46] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_46.png||spendTime=0.36841750144958496Second
+[01 03 23:40:51] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:40:52] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_51.png||spendTime=0.3625192642211914Second
+[01 03 23:40:53] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:40:53] [INFO]  __main__/55 || current Operate:startOperationInOperatorView
+[01 03 23:40:53] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_53.png||spendTime=0.29024720191955566Second
+[01 03 23:40:54] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:40:54] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:40:55] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_40_54.png||spendTime=0.31416916847229004Second
+[01 03 23:41:00] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:00] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_0.png||spendTime=0.29071688652038574Second
+[01 03 23:41:05] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:06] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_5.png||spendTime=0.48470115661621094Second
+[01 03 23:41:11] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:11] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_11.png||spendTime=0.4670729637145996Second
+[01 03 23:41:16] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:17] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_16.png||spendTime=0.5101027488708496Second
+[01 03 23:41:22] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:22] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_22.png||spendTime=0.5350387096405029Second
+[01 03 23:41:27] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:28] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_27.png||spendTime=0.4660961627960205Second
+[01 03 23:41:33] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:34] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_33.png||spendTime=0.5135447978973389Second
+[01 03 23:41:39] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:39] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_39.png||spendTime=0.5008022785186768Second
+[01 03 23:41:44] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:45] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_44.png||spendTime=0.4730257987976074Second
+[01 03 23:41:50] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:50] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_50.png||spendTime=0.47782278060913086Second
+[01 03 23:41:55] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:41:56] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_41_55.png||spendTime=0.47101831436157227Second
+[01 03 23:42:01] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:01] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_1.png||spendTime=0.47739219665527344Second
+[01 03 23:42:07] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:07] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_7.png||spendTime=0.45241594314575195Second
+[01 03 23:42:12] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:13] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_12.png||spendTime=0.4822366237640381Second
+[01 03 23:42:18] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:18] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_18.png||spendTime=0.4510042667388916Second
+[01 03 23:42:23] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:24] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_23.png||spendTime=0.4871969223022461Second
+[01 03 23:42:29] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:29] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_29.png||spendTime=0.4730222225189209Second
+[01 03 23:42:34] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:35] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_34.png||spendTime=0.4675791263580322Second
+[01 03 23:42:40] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:40] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_40.png||spendTime=0.4803187847137451Second
+[01 03 23:42:46] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:46] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_46.png||spendTime=0.48567843437194824Second
+[01 03 23:42:51] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:52] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_51.png||spendTime=0.5057272911071777Second
+[01 03 23:42:57] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:42:57] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_42_57.png||spendTime=0.506195068359375Second
+[01 03 23:43:02] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:03] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_2.png||spendTime=0.4807891845703125Second
+[01 03 23:43:08] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:08] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_8.png||spendTime=0.4729740619659424Second
+[01 03 23:43:14] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:14] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_14.png||spendTime=0.47344374656677246Second
+[01 03 23:43:19] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:20] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_19.png||spendTime=0.43830251693725586Second
+[01 03 23:43:26] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:43:26] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:43:26] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_26.png||spendTime=0.4172389507293701Second
+[01 03 23:43:31] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:43:32] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_31.png||spendTime=0.3830399513244629Second
+[01 03 23:43:33] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:43:33] [INFO]  __main__/55 || current Operate:startOperationInOperatorView
+[01 03 23:43:33] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_33.png||spendTime=0.3029482364654541Second
+[01 03 23:43:34] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:43:34] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:34] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_34.png||spendTime=0.16709041595458984Second
+[01 03 23:43:39] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:40] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_39.png||spendTime=0.5047488212585449Second
+[01 03 23:43:45] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:46] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_45.png||spendTime=0.48657846450805664Second
+[01 03 23:43:51] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:51] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_51.png||spendTime=0.490598201751709Second
+[01 03 23:43:56] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:43:57] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_43_56.png||spendTime=0.48813319206237793Second
+[01 03 23:44:02] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:02] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_2.png||spendTime=0.5306243896484375Second
+[01 03 23:44:07] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:08] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_7.png||spendTime=0.4812610149383545Second
+[01 03 23:44:13] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:14] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_13.png||spendTime=0.46663737297058105Second
+[01 03 23:44:19] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:19] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_19.png||spendTime=0.4539337158203125Second
+[01 03 23:44:24] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:25] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_24.png||spendTime=0.44999074935913086Second
+[01 03 23:44:30] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:30] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_30.png||spendTime=0.4964582920074463Second
+[01 03 23:44:35] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:36] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_35.png||spendTime=0.46469712257385254Second
+[01 03 23:44:41] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:41] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_41.png||spendTime=0.4866170883178711Second
+[01 03 23:44:47] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:47] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_47.png||spendTime=0.4803199768066406Second
+[01 03 23:44:52] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:53] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_52.png||spendTime=0.4539375305175781Second
+[01 03 23:44:58] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:44:58] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_44_58.png||spendTime=0.4788689613342285Second
+[01 03 23:45:03] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:04] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_3.png||spendTime=0.49200916290283203Second
+[01 03 23:45:09] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:09] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_9.png||spendTime=0.490525484085083Second
+[01 03 23:45:14] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:15] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_14.png||spendTime=0.47879958152770996Second
+[01 03 23:45:20] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:21] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_20.png||spendTime=0.5169436931610107Second
+[01 03 23:45:26] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:26] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_26.png||spendTime=0.49008893966674805Second
+[01 03 23:45:31] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:32] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_31.png||spendTime=0.4836852550506592Second
+[01 03 23:45:37] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:37] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_37.png||spendTime=0.5227713584899902Second
+[01 03 23:45:43] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:43] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_43.png||spendTime=0.49884724617004395Second
+[01 03 23:45:48] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:48] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_48.png||spendTime=0.17783880233764648Second
+[01 03 23:45:53] [INFO]  __main__/55 || current Operate:operationEnd
+[01 03 23:45:54] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_45_53.png||spendTime=0.3547394275665283Second
+[01 03 23:46:00] [INFO]  __main__/31 || current Operation: Operation Truly End
+[01 03 23:46:00] [INFO]  __main__/55 || current Operate:startOperation
+[01 03 23:46:00] [INFO]  server.windowManipulator/36 || image save succeed||path=./images/ScreenShots/1_3_23_46_0.png||spendTime=0.3884303569793701Second
+[01 03 23:49:00] [ERROR]  utils.sysUtils/14 || clear file fail
+[01 03 23:49:37] [ERROR]  utils.sysUtils/15 || clear file fail
+[01 03 23:49:47] [ERROR]  utils.sysUtils/15 || clear file fail
+[01 03 23:50:24] [ERROR]  utils.sysUtils/15 || clear file fail
+[01 03 23:50:24] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 1
+[01 03 23:51:34] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 122

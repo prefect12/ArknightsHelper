@@ -2,73 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f81576b-909f-4f47-b637-76a5ad467594" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/items/operationEnd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/items/takeOverOperation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/mouseController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/windowManipulator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/photoUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/photoRecognizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sysUtils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/conf.toml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_21_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_25_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_36_40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_36_58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_39_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_39_54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_40_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_40_48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_42_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_42_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_42_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_42_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_43_34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_44_36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_45_47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_45_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_47_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_57_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_58_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_59_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_16_59_59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_0_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_0_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_15_31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_1_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_26_41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_29_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_2_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_30_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_33_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_36_43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_38_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_43_39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_44_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_44_34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_44_51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_44_56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_45_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_45_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_47_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_47_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_48_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_48_41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_48_56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_49_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_49_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_51_33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_51_46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_51_58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_56_29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ScreenShots/1_3_17_56_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/items/BI-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/BI-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/items/homePage_WatingForWeakup.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/homePage_WatingForWeakup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/items/starOperationInOperatorView.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/starOperationInOperatorView.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/items/startOperation.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/items/startOperation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/BI-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/homePage_WatingForWeakup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/operationEnd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/starOperationInOperatorView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/startOperation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/items/takeOverOperation.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/itemDownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/itemDownloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/photoUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/photoUtils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,15 +24,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ArknightsHelper$photoUtils.coverage" NAME="photoUtils Coverage Results" MODIFIED="1641212048719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1641222743007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1641225023169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="396">
+              <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -95,19 +40,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homePage_WatingForWeakup.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/OperationIcon/homePage_WatingForWeakup.png">
+      <file leaf-file-name="windowManipulator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sysUtils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/sysUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_3_23_37_44.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/ScreenShots/1_3_23_37_44.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="photoUtils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/photoUtils.py">
+      <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients/log.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="photoRecognizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -117,18 +88,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="17" column="13" selection-start-line="17" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="windowManipulator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,10 +144,14 @@
         <option value="$PROJECT_DIR$/server/window.py" />
         <option value="$PROJECT_DIR$/server/mouseController.py" />
         <option value="$PROJECT_DIR$/server/windowManipulator.py" />
-        <option value="$PROJECT_DIR$/utils/photoUtils.py" />
         <option value="$PROJECT_DIR$/server/itemDownloader.py" />
         <option value="$PROJECT_DIR$/conf/conf.toml" />
+        <option value="$PROJECT_DIR$/server/photoRecognizer.py" />
+        <option value="$PROJECT_DIR$/utils/syUtils.py" />
+        <option value="$PROJECT_DIR$/utils/photoUtils.py" />
+        <option value="I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/cv2/__init__.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/utils/sysUtils.py" />
       </list>
     </option>
   </component>
@@ -199,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="204" />
-    <option name="y" value="186" />
+    <option name="x" value="326" />
+    <option name="y" value="188" />
     <option name="width" value="1718" />
     <option name="height" value="1124" />
   </component>
@@ -209,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,18 +182,7 @@
             <path>
               <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="OperationIcon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
@@ -249,10 +200,16 @@
               <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,19 +318,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="318" y="273" width="1718" height="1124" extended-state="0" />
+    <frame x="326" y="188" width="1718" height="1124" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37563452" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37563452" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32994923" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32994923" />
       <window_info anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="11" weight="0.3401015" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.18335344" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.18576598" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.15618336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41218275" />
@@ -384,7 +342,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32994923" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +356,57 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/photoUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="13" selection-start-line="17" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mouseController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/itemDownloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -478,13 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/846511392/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10523" column="24" selection-start-line="10523" selection-start-column="24" selection-end-line="10523" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/846511392/cv2/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -509,30 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/photoUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/mouseController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,18 +532,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/OperationIcon/watingForWeakup.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/OperationIcon/homePage_WatingForWeakup.png">
+    <entry file="file://$PROJECT_DIR$/utils/photoUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ScreenShots/1_3_23_37_44.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="396">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sysUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

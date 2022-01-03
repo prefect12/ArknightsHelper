@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+
 class PhotoSearcher:
     def __init__(self,imgPath,targetPath):
         self.imgPath = imgPath

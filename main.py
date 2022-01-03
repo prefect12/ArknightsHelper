@@ -1,30 +1,9 @@
 from clients import conf,log
 import time
 import easyocr
-from utils import photoUtils
+from utils import photoUtils,sysUtils
 from server import mouseController,windowManipulator
 
-class PhotoRecognize:
-    def __init__(self,imgPath):
-        # 创建reader对象
-        self.reader = easyocr.Reader(['en','ch_sim'])
-        self.imgPath = imgPath
-
-    def recognize(self):
-        result = self.reader.readtext(self.imgPath)
-        for i in result:
-            print(i)
-
-    def recognizeItemNum(self):
-        pass
-
-    #return number of item
-    def recognizeNum(self):
-        pass
-
-    #return location of a level
-    def recognizeLevel(self):
-        pass
 
 # startOperation="./images/items/startOperation.png"
 # startOperationInOperatorView="./images/items/starOperationInOperatorView.png"
@@ -41,6 +20,8 @@ class Controller:
 
     def run(self):
         while True:
+            if time.localtime(time.time()).tm_min % 3 == 0:
+                sysUtils.clearScreenShots()
             self.waitingClickButton("startOperation")
             self.waitingClickButton("startOperationInOperatorView")
             self.waitingClickButton("operationEnd",timeWait=5)
@@ -88,8 +69,9 @@ class Controller:
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    myControl = Controller(Myconfig)
-    myControl.run()
+    # myControl = Controller(Myconfig)
+    # myControl.run()
+    sysUtils.clearScreenShots()
 
 if __name__ == "__main__":
     main()
