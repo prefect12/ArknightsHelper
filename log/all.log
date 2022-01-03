@@ -1,0 +1,6 @@
+[01 03 13:21:35] [CRITICAL]  __main__/60 || Can't find screen
+[01 03 13:22:27] [CRITICAL]  __main__/59 || Can't find screen
+[01 03 13:25:00] [INFO]  __main__/77 || image saved || name = ./imgs/ScreenShots/1_3_13_25_0.png
+[01 03 13:26:59] [INFO]  __main__/78 || image save succeed||path=./imgs/ScreenShots/1_3_13_26_59.png||spendTime=0.14316892623901367
+[01 03 13:28:35] [INFO]  __main__/78 || image save succeed||path=./imgs/ScreenShots/1_3_13_28_35.png||spendTime=0.14559412002563477 s
+[01 03 13:29:40] [INFO]  __main__/78 || image save succeed||path=./imgs/ScreenShots/1_3_13_29_39.png||spendTime=0.416262149810791 s

@@ -1,0 +1,12 @@
+[log]
+level="INFO"
+path="./log/all.log"
+
+[img]
+path = "./imgs/ScreenShots/"
+
+[window]
+name = "明日方舟 - MuMu模拟器"
+
+[item]
+url="https://planner.penguin-stats.io/"
