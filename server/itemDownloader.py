@@ -7,3 +7,4 @@ class ItemDownloader:
 
     def imgDownloader(self):
         pass
+

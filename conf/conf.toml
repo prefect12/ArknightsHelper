@@ -3,10 +3,16 @@ level="INFO"
 path="./log/all.log"
 
 [img]
-path = "./imgs/ScreenShots/"
+path = "./images/ScreenShots/"
 
 [window]
 name = "明日方舟 - MuMu模拟器"
 
 [item]
 url="https://planner.penguin-stats.io/"
+
+[buttons]
+startOperation="./images/OperationIcon/startOperation.png"
+startOperationInOperatorView="./images/OperationIcon/starOperationInOperatorView.png"
+operationEnd="./images/OperationIcon/operationEnd.png"
+uploadingData="./images/OperationIcon/upLoadingData.png"

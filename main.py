@@ -1,32 +1,8 @@
 from clients import conf,log
-import PIL.ImageGrab
-import cv2
-import numpy as np
 import time
-import win32api, win32con, win32gui
-import mouse
 import easyocr
-
-class PhotoSearch:
-    def __init__(self,imgPath,targetPath):
-        self.imgPath = imgPath
-        self.targetPath = targetPath
-
-    def search(self):
-        img_rgb = cv2.imread(self.imgPath)
-        img_target = cv2.imread(self.targetPath)
-        h,w = img_target.shape[:-1]
-        res = cv2.matchTemplate(img_rgb,img_target,cv2.TM_CCOEFF_NORMED)
-
-        threshold = 0.9
-        loc = np.where(res >= threshold)
-        x,y = *loc[::-1][0]+w/2,*loc[::-1][1]+h/2
-
-        # for pt in zip(*loc[::-1]):
-        #     cv2.rectangle(img_rgb,pt,(pt[0]+w,pt[1]+h),(0,0,255),2)
-        # cv2.imwrite("./img.png",img_rgb)
-        return x,y
-
+from utils import photoUtils
+from server import mouseController,windowManipulator
 
 class PhotoRecognize:
     def __init__(self,imgPath):
@@ -50,112 +26,70 @@ class PhotoRecognize:
     def recognizeLevel(self):
         pass
 
-
-class MouseController:
-    def __init__(self):
-        self.m = mouse
-
-    def draw(self,func):
-        def warpFunc():
-            self.hold()
-            func()
-            self.release()
-        return warpFunc
-
-    def moveToLeft(self,distance):
-        self.draw(self.move(-distance,0))()
-
-    def moveToRight(self,distance):
-        self.draw(self.move(distance, 0))()
-
-    def moveToUp(self,distance):
-        self.draw(self.move(0, distance))()
-
-    def moveToDown(self,distance):
-        self.draw(self.move(0, -distance))()
-
-    def move(self,x,y):
-        self.m.move(x,y)
-
-    def moveRelativeToWindow(self,x,y):
-        pass
-
-    def leftClick(self):
-        self.m.click('left')
-
-    def hold(self):
-        self.m.press('left')
-
-    def getPostion(self):
-        return self.m.get_position()
-
-    def release(self):
-        self.m.release('left')
-
-class WindowManipulator:
-    def __init__(self,name,screenShotPath):
-        self.logger = log.LoggingFactory.logger(__name__)
-
-        self.name = name
-        self.handle = win32gui.FindWindow(0, name)
-        self.screenShotPath = screenShotPath
-        if self.handle == 0:
-            self.logger.fatal("Can't find screen")
-            exit(0)
-
-
-    def setWindowForeground(self):
-        win32gui.SetForegroundWindow(self.handle)
-
-    def getWindowPos(self):
-        return  win32gui.GetWindowRect(self.handle)
-
-    def getWindowLeftUpCornerPos(self):
-        x1, y1, x2, y2 = win32gui.GetWindowRect(self.handle)
-        return x1,y1
-
-    def screenShotForWindow(self):
-        startTime = time.time()
-        myTime = time.localtime(startTime)
-        timeName = str(myTime.tm_mon) + "_" + str(myTime.tm_mday) + "_" + str(myTime.tm_hour) + "_" + str(
-            myTime.tm_min) + "_" + str(myTime.tm_sec) + ".png"
-        imgName = self.screenShotPath + timeName
-        myImg = PIL.ImageGrab.grab(bbox=(self.getWindowPos()),all_screens=True)
-        myImg.save(imgName)
-        self.logger.info("image save succeed||path=%s||spendTime=%sSecond",imgName,time.time()-startTime)
-        return imgName
-
+# startOperation="./images/items/startOperation.png"
+# startOperationInOperatorView="./images/items/starOperationInOperatorView.png"
+# operationEnd="./images/items/operationEnd.png"
 
 class Controller:
-    def __init__(self):
-        pass
+    def __init__(self,myConfig):
+        self.currentState = 0
+        self.window = windowManipulator.WindowManipulator(myConfig["window"]["name"],myConfig["img"]["path"])
+        self.mouse = mouseController.MouseController()
+        self.newestPhotoPath = ""
+        self.logger = log.LoggingFactory.logger(__name__)
+        self.buttons = myConfig["buttons"]
 
     def run(self):
-        pass
+        while True:
+            self.waitingClickButton("startOperation")
+            self.waitingClickButton("startOperationInOperatorView")
+            self.waitingClickButton("operationEnd",timeWait=5)
+
+    def waitingClickButton(self,buttonIcon,timeWait=0):
+        while True:
+            result = self.clickButton(buttonIcon,timeWait)
+            if result == True:
+                self.logger.info("current Operation: Operation Truly End",)
+                break
+            time.sleep(5)
+        return True
+
+    def checkState(self):
+        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["startOperation"])
+        if x != -1 and y != -1:
+            self.currentState = 0
+
+        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["startOperationInOperatorView"])
+        if x != -1 and y != -1:
+            self.currentState = 1
+
+        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["operationEnd"])
+        if x != -1 and y != -1:
+            self.currentState = 2
+
+        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["uploadingData"])
+        if x != -1 and y != -1:
+            self.currentState = -1
+
+    def clickButton(self,buttonIcon,timeWait=0):
+        buttonIconPath = self.buttons[buttonIcon]
+        self.logger.info("current Operate:%s",buttonIcon)
+        self.newestPhotoPath = self.window.screenShotForWindow()
+        moveX, moveY = photoUtils.findPosition(self.newestPhotoPath, buttonIconPath)
+        x1, y1 = self.window.getWindowLeftUpCornerPos()
+        if moveX == -1 and moveY == -1:
+            return False
+        self.mouse.move(x1 + moveX, y1 + moveY)
+        time.sleep(timeWait)
+        self.mouse.leftClick()
+        time.sleep(1)
+        return True
 
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-
-    window = WindowManipulator(Myconfig["window"]["name"],Myconfig["img"]["path"])
-
-    photoPath = window.screenShotForWindow()
-    myMouse = MouseController()
-
-    # recoter = PhotoRecognize(photoPath)
-    # recoter.recognize()
-    searcher = PhotoSearch(photoPath,"./imgs/items/startOperation.png")
-    moveX,moveY = searcher.search()
-    x1,y1 = window.getWindowLeftUpCornerPos()
-    myMouse.move(x1+moveX,y1+moveY)
-    myMouse.leftClick()
-    print(x1+moveX,y1+moveY)
-
-    searcher = PhotoSearch(photoPath,"./imgs/items/starOperationInOperatorView.png")
-    moveX, moveY = searcher.search()
-    x1, y1 = window.getWindowLeftUpCornerPos()
-    myMouse.move(x1 + moveX, y1 + moveY)
-
+    myControl = Controller(Myconfig)
+    myControl.run()
 
 if __name__ == "__main__":
     main()
