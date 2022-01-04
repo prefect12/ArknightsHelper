@@ -9,11 +9,11 @@ from server import mouseController,windowManipulator
 # startOperationInOperatorView="./images/items/starOperationInOperatorView.png"
 # operationEnd="./images/items/operationEnd.png"
 
-class Controller:
+class Operator:
     def __init__(self,myConfig):
         self.currentState = 0
-        self.window = windowManipulator.WindowManipulator(myConfig["window"]["name"],myConfig["img"]["path"])
         self.mouse = mouseController.MouseController()
+        self.window = windowManipulator.WindowManipulator(myConfig["initWindowConfig"],myConfig["img"]["screenShotsPath"])
         self.newestPhotoPath = ""
         self.logger = log.LoggingFactory.logger(__name__)
         self.buttons = myConfig["buttons"]
@@ -59,6 +59,7 @@ class Controller:
         moveX, moveY = photoUtils.findPosition(self.newestPhotoPath, buttonIconPath)
         x1, y1 = self.window.getWindowLeftUpCornerPos()
         if moveX == -1 and moveY == -1:
+            self.logger.info("Can't find button:%s",buttonIcon)
             return False
         self.mouse.move(x1 + moveX, y1 + moveY)
         time.sleep(timeWait)
@@ -66,12 +67,33 @@ class Controller:
         time.sleep(1)
         return True
 
+    def startGame(self):
+        self.clickButton("arkNightsApp")
+
+
+
+class LifeCycleController:
+    def __init__(self):
+        pass
+
+    def checkCurrentStat(self):
+        pass
+
+    def move(self,curState):
+        pass
+
+
+
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    # myControl = Controller(Myconfig)
+    # window = windowManipulator.WindowManipulator(Myconfig["initWindowConfig"], Myconfig["img"]["screenShotsPath"])
+
+    myOperator = Operator(Myconfig)
+    myOperator.startGame()
     # myControl.run()
-    sysUtils.clearScreenShots()
+    # sysUtils.clearScreenShots()
+
 
 if __name__ == "__main__":
     main()

@@ -260,3 +260,33 @@
 [01 03 23:50:24] [ERROR]  utils.sysUtils/15 || clear file fail
 [01 03 23:50:24] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 1
 [01 03 23:51:34] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 122
+[01 04 23:58:15] [INFO]  server.windowManipulator/30 || Can't find screen... || try to start emulator || number of retry2
+[01 04 23:58:20] [INFO]  server.windowManipulator/30 || Can't find screen... || try to start emulator || number of retry1
+[01 05 00:17:50] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:18:42] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:18:43] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_18_42.png||spendTime=0.3762991428375244Second
+[01 05 00:19:02] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:19:03] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_19_2.png||spendTime=0.36278843879699707Second
+[01 05 00:20:16] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:20:17] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_20_16.png||spendTime=0.39531731605529785Second
+[01 05 00:20:17] [INFO]  __main__/62 || Can't find button:arkNightsApp
+[01 05 00:25:39] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:25:39] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_25_39.png||spendTime=0.20671510696411133Second
+[01 05 00:25:39] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 00:25:39] [INFO]  __main__/62 || Can't find button:arkNightsApp
+[01 05 00:26:29] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:26:30] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_26_29.png||spendTime=0.39574265480041504Second
+[01 05 00:26:30] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 00:26:30] [INFO]  __main__/62 || Can't find button:arkNightsApp
+[01 05 00:26:42] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:26:42] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_26_42.png||spendTime=0.37326884269714355Second
+[01 05 00:26:42] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 00:26:42] [INFO]  __main__/62 || Can't find button:arkNightsApp
+[01 05 00:36:59] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:36:59] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_36_59.png||spendTime=0.1563420295715332Second
+[01 05 00:37:19] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:37:19] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_37_19.png||spendTime=0.39443159103393555Second
+[01 05 00:39:46] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:39:46] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_39_46.png||spendTime=0.3554086685180664Second
+[01 05 00:40:41] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 00:40:41] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_40_41.png||spendTime=0.3647935390472412Second

@@ -5,6 +5,11 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="pymouse.PyMouse" />
+          <option value="cv2.imread" />
+          <option value="cv2.matchTemplate" />
+          <option value="cv2.TM_CCOEFF_NORMED" />
+          <option value="cv2.rectangle" />
+          <option value="cv2.imwrite" />
         </list>
       </option>
     </inspection_tool>
