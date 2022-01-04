@@ -260,3 +260,5 @@
 [01 03 23:50:24] [ERROR]  utils.sysUtils/15 || clear file fail
 [01 03 23:50:24] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 1
 [01 03 23:51:34] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 122
+[01 04 23:58:15] [INFO]  server.windowManipulator/30 || Can't find screen... || try to start emulator || number of retry2
+[01 04 23:58:20] [INFO]  server.windowManipulator/30 || Can't find screen... || try to start emulator || number of retry1

@@ -12,8 +12,8 @@ from server import mouseController,windowManipulator
 class Controller:
     def __init__(self,myConfig):
         self.currentState = 0
-        self.window = windowManipulator.WindowManipulator(myConfig["window"]["name"],myConfig["img"]["path"])
         self.mouse = mouseController.MouseController()
+        self.window = windowManipulator.WindowManipulator(myConfig["initWindowConfig"],myConfig["img"]["screenShotsPath"],self.mouse)
         self.newestPhotoPath = ""
         self.logger = log.LoggingFactory.logger(__name__)
         self.buttons = myConfig["buttons"]
@@ -66,11 +66,16 @@ class Controller:
         time.sleep(1)
         return True
 
+    def startGame(self):
+        
+
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    myControl = Controller(Myconfig)
-    myControl.run()
+    window = windowManipulator.WindowManipulator(Myconfig["initWindowConfig"], Myconfig["img"]["screenShotsPath"])
+
+    # myControl = Controller(Myconfig)
+    # myControl.run()
     # sysUtils.clearScreenShots()
 
 if __name__ == "__main__":

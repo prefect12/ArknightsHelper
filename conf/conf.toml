@@ -1,9 +1,17 @@
+[initWindowConfig]
+emulatorName="MuMu模拟器"
+emulatorGameName = "明日方舟 - MuMu模拟器"
+emulatorPath="D:\\application\\mumu\\emulator\\nemu\\EmulatorShell\\NemuLauncher.exe"
+emulatorStartTime=30
+retry=3
+
+
 [log]
 level="INFO"
 path="./log/all.log"
 
 [img]
-path = "./images/ScreenShots/"
+screenShotsPath = "./images/ScreenShots/"
 
 [window]
 name = "明日方舟 - MuMu模拟器"
@@ -16,3 +24,4 @@ startOperation="./images/OperationIcon/startOperation.png"
 startOperationInOperatorView="./images/OperationIcon/starOperationInOperatorView.png"
 operationEnd="./images/OperationIcon/operationEnd.png"
 uploadingData="./images/OperationIcon/upLoadingData.png"
+
