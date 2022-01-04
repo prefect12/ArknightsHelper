@@ -10,7 +10,12 @@ class WindowManipulator:
         self.logger = log.LoggingFactory.logger(__name__)
         self.config = initWindowConfig
         self.screenShotPath = screenShotPath
-        self.startEmulator(self.config["retry"])
+        self.getEmulatorWindow()
+        # self.startEmulator(self.config["retry"])
+    def getEmulatorWindow(self):
+        self.handle = win32gui.FindWindow(0, self.config["emulatorName"])
+        if self.handle == 0:
+            self.logger.info("Can't find screen... || try to start emulator || number of retry%d", retry)
 
     def getGameWindow(self):
         self.handle = win32gui.FindWindow(0,self.config["emulatorGameName"])
@@ -26,7 +31,7 @@ class WindowManipulator:
             return False
         self.handle = win32gui.FindWindow(0, self.config["emulatorName"])
         if self.handle == 0:
-            self.logger.info("Can't find screen... || try to start emulator || number of retry%d",retry)
+            self.logger.info("Can't find screen... || try to start emulator || number of retry:%d",retry)
             return self.startEmulator(retry)
         self.logger.info("Get Emulator window success!!")
         return True
