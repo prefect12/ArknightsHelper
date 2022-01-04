@@ -69,9 +69,9 @@ class Controller:
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    # myControl = Controller(Myconfig)
-    # myControl.run()
-    sysUtils.clearScreenShots()
+    myControl = Controller(Myconfig)
+    myControl.run()
+    # sysUtils.clearScreenShots()
 
 if __name__ == "__main__":
     main()

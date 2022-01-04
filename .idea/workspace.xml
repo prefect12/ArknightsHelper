@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f81576b-909f-4f47-b637-76a5ad467594" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server/photoRecognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sysUtils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/BI-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/homePage_WatingForWeakup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/operationEnd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/starOperationInOperatorView.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/startOperation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/takeOverOperation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/photoUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/photoUtils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,18 +15,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ArknightsHelper$photoUtils.coverage" NAME="photoUtils Coverage Results" MODIFIED="1641212048719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1641225023169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1641225092874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -52,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sysUtils.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sysUtils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/sysUtils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -64,9 +52,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_3_23_37_44.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/ScreenShots/1_3_23_37_44.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="all.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/all.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
@@ -150,8 +142,8 @@
         <option value="$PROJECT_DIR$/utils/syUtils.py" />
         <option value="$PROJECT_DIR$/utils/photoUtils.py" />
         <option value="I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/cv2/__init__.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/utils/sysUtils.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -183,12 +175,6 @@
               <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="ScreenShots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
@@ -324,11 +310,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37563452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37563452" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32994923" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32994923" />
-      <window_info anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="11" weight="0.3401015" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.18576598" />
+      <window_info anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="11" visible="true" weight="0.3401015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.18576598" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
@@ -360,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,9 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/all.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="359" column="26" selection-start-line="359" selection-start-column="26" selection-end-line="359" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/PIL/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -572,23 +545,30 @@
     <entry file="file://$PROJECT_DIR$/images/ScreenShots/1_3_23_37_44.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/utils/sysUtils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        <state relative-caret-position="132">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/sysUtils.py">
+    <entry file="file://$PROJECT_DIR$/log/all.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="457">
+          <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
