@@ -5,6 +5,8 @@ emulatorPath="D:\\application\\mumu\\emulator\\nemu\\EmulatorShell\\NemuLauncher
 emulatorStartTime=30
 gameStartTime=30
 retry=3
+startPos=[-1920,349]
+size=[1400, 800]
 
 
 [log]

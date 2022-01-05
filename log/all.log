@@ -290,3 +290,177 @@
 [01 05 00:39:46] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_39_46.png||spendTime=0.3554086685180664Second
 [01 05 00:40:41] [INFO]  __main__/57 || current Operate:arkNightsApp
 [01 05 00:40:41] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_0_40_41.png||spendTime=0.3647935390472412Second
+[01 05 02:57:22] [INFO]  server.windowManipulator/18 || Can't find screen... || try to start emulator 
+[01 05 02:57:22] [INFO]  server.windowManipulator/18 || Can't find screen... || try to start emulator 
+[01 05 02:57:22] [INFO]  __main__/57 || current Operate:arkNightsApp
+[01 05 02:58:18] [INFO]  server.windowManipulator/18 || Can't find screen... || try to start emulator 
+[01 05 02:58:18] [INFO]  server.windowManipulator/18 || Can't find screen... || try to start emulator 
+[01 05 02:58:18] [INFO]  __main__/57 || current Operate:startOperation
+[01 05 02:58:51] [INFO]  __main__/57 || current Operate:startOperation
+[01 05 02:58:51] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_2_58_51.png||spendTime=0.4794275760650635Second
+[01 05 02:58:51] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 02:58:51] [INFO]  __main__/62 || Can't find button:startOperation
+[01 05 02:58:56] [INFO]  __main__/57 || current Operate:startOperation
+[01 05 02:58:57] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_2_58_56.png||spendTime=0.4685959815979004Second
+[01 05 02:58:57] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 02:58:57] [INFO]  __main__/62 || Can't find button:startOperation
+[01 05 02:59:02] [INFO]  __main__/57 || current Operate:startOperation
+[01 05 02:59:02] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_2_59_2.png||spendTime=0.47354578971862793Second
+[01 05 02:59:02] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 02:59:02] [INFO]  __main__/62 || Can't find button:startOperation
+[01 05 02:59:07] [INFO]  __main__/57 || current Operate:startOperation
+[01 05 02:59:08] [INFO]  server.windowManipulator/61 || image save succeed||path=./images/ScreenShots/1_5_2_59_7.png||spendTime=0.4636712074279785Second
+[01 05 02:59:08] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 02:59:08] [INFO]  __main__/62 || Can't find button:startOperation
+[01 05 03:00:18] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 05 03:00:38] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 05 03:01:40] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 05 03:02:05] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 05 05:09:40] [WARNING]  easyocr.easyocr/73 || CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+[01 05 22:37:49] [INFO]  server.windowManipulator/27 || Start Emulator || try to get window...
+[01 05 22:37:49] [INFO]  server.windowManipulator/37 || Get Emulator window success!!
+[01 05 22:37:49] [INFO]  __main__/57 || current Operate:startOperation
+[01 05 22:42:22] [INFO]  server.windowManipulator/27 || Start Emulator || try to get window...
+[01 05 22:42:22] [INFO]  server.windowManipulator/37 || Get Emulator window success!!
+[01 05 22:42:22] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 15
+[01 05 22:42:22] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:22] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_22.png||spendTime=0.24587798118591309Second
+[01 05 22:42:22] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:22] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:42:27] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:27] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_27.png||spendTime=0.24040842056274414Second
+[01 05 22:42:28] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:28] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:42:33] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:33] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_33.png||spendTime=0.23124480247497559Second
+[01 05 22:42:33] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:33] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:42:38] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:38] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_38.png||spendTime=0.22925519943237305Second
+[01 05 22:42:38] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:38] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:42:43] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:44] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_43.png||spendTime=0.2409818172454834Second
+[01 05 22:42:44] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:44] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:42:49] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:49] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_49.png||spendTime=0.2286515235900879Second
+[01 05 22:42:49] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:49] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:42:54] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:42:54] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_42_54.png||spendTime=0.2540569305419922Second
+[01 05 22:42:55] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:42:55] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:43:00] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:43:00] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_43_0.png||spendTime=0.2341458797454834Second
+[01 05 22:43:00] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:43:00] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:43:05] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:43:05] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_43_5.png||spendTime=0.21604704856872559Second
+[01 05 22:43:05] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:43:05] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:43:10] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:43:11] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_43_10.png||spendTime=0.2579989433288574Second
+[01 05 22:43:11] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:43:11] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:43:16] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:43:16] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_43_16.png||spendTime=0.21449971199035645Second
+[01 05 22:43:16] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:43:16] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:43:21] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:43:21] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_43_21.png||spendTime=0.23940038681030273Second
+[01 05 22:43:22] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 22:43:22] [INFO]  __main__/63 || Can't find button:startOperation
+[01 05 22:43:27] [INFO]  __main__/58 || current Operate:startOperation
+[01 05 22:45:07] [INFO]  server.windowManipulator/27 || Start Emulator || try to get window...
+[01 05 22:45:07] [INFO]  server.windowManipulator/35 || Can't find screen... || try to start emulator || number of retry:2
+[01 05 22:45:42] [INFO]  server.windowManipulator/27 || Start Emulator || try to get window...
+[01 05 22:45:42] [INFO]  server.windowManipulator/37 || Get Emulator window success!!
+[01 05 22:45:42] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:45:42] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_45_42.png||spendTime=0.2591125965118408Second
+[01 05 22:45:42] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:45:42] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:45:42] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 14
+[01 05 22:45:42] [INFO]  __main__/60 || current Operate:startOperation
+[01 05 22:47:57] [INFO]  server.windowManipulator/27 || Start Emulator || try to get window...
+[01 05 22:47:57] [INFO]  server.windowManipulator/37 || Get Emulator window success!!
+[01 05 22:47:57] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:47:57] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_47_57.png||spendTime=0.2585444450378418Second
+[01 05 22:47:57] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:47:57] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:02] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:02] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_2.png||spendTime=0.3053741455078125Second
+[01 05 22:48:02] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:02] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:07] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:08] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_7.png||spendTime=0.2833712100982666Second
+[01 05 22:48:08] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:08] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:13] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:13] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_13.png||spendTime=0.29411983489990234Second
+[01 05 22:48:13] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:13] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:18] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:18] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_18.png||spendTime=0.2858443260192871Second
+[01 05 22:48:18] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:18] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:23] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:24] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_23.png||spendTime=0.3039259910583496Second
+[01 05 22:48:24] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:24] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:29] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:29] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_29.png||spendTime=0.3004884719848633Second
+[01 05 22:48:29] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:29] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:34] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:34] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_34.png||spendTime=0.26335668563842773Second
+[01 05 22:48:34] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:34] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:39] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:40] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_39.png||spendTime=0.3298354148864746Second
+[01 05 22:48:40] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:40] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:45] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:45] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_45.png||spendTime=0.31123781204223633Second
+[01 05 22:48:45] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:45] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 22:48:50] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 22:48:50] [INFO]  server.windowManipulator/62 || image save succeed||path=./images/ScreenShots/1_5_22_48_50.png||spendTime=0.3038911819458008Second
+[01 05 22:48:50] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/arkNightsApp.png
+[01 05 22:48:50] [INFO]  __main__/65 || Can't find button:arkNightsApp
+[01 05 23:26:06] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:26:06] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_26_6.png||spendTime=0.32939720153808594Second
+[01 05 23:28:03] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:28:03] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_28_3.png||spendTime=0.34981632232666016Second
+[01 05 23:28:34] [INFO]  __main__/36 || current Operation: Operation Truly End
+[01 05 23:28:34] [INFO]  __main__/60 || current Operate:startOperation
+[01 05 23:29:23] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:29:23] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_29_23.png||spendTime=0.34594297409057617Second
+[01 05 23:30:26] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:30:26] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_30_26.png||spendTime=0.3511011600494385Second
+[01 05 23:32:38] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:32:39] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_32_38.png||spendTime=0.34253835678100586Second
+[01 05 23:33:15] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:33:15] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_33_15.png||spendTime=0.347426176071167Second
+[01 05 23:34:04] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:34:04] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_34_4.png||spendTime=0.3273427486419678Second
+[01 05 23:35:01] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:35:01] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_35_1.png||spendTime=0.35718536376953125Second
+[01 05 23:35:54] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:35:54] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_35_54.png||spendTime=0.3254218101501465Second
+[01 05 23:36:41] [INFO]  __main__/60 || current Operate:arkNightsApp
+[01 05 23:36:41] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_36_41.png||spendTime=0.3385953903198242Second
+[01 05 23:36:42] [INFO]  __main__/36 || current Operation: Operation Truly End
+[01 05 23:36:42] [INFO]  utils.sysUtils/16 || clear screenShots success||number = 21
+[01 05 23:36:42] [INFO]  __main__/60 || current Operate:startOperation
+[01 05 23:36:42] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_36_42.png||spendTime=0.17099952697753906Second
+[01 05 23:36:42] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 23:36:42] [INFO]  __main__/65 || Can't find button:startOperation
+[01 05 23:36:47] [INFO]  __main__/60 || current Operate:startOperation
+[01 05 23:36:48] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_36_47.png||spendTime=0.16025066375732422Second
+[01 05 23:36:48] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 23:36:48] [INFO]  __main__/65 || Can't find button:startOperation
+[01 05 23:36:53] [INFO]  __main__/60 || current Operate:startOperation
+[01 05 23:36:53] [INFO]  server.windowManipulator/64 || image save succeed||path=./images/ScreenShots/1_5_23_36_53.png||spendTime=0.17490863800048828Second
+[01 05 23:36:53] [INFO]  utils.photoUtils/23 || Can't find target:./images/OperationIcon/startOperation.png
+[01 05 23:36:53] [INFO]  __main__/65 || Can't find button:startOperation

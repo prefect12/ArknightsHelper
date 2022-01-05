@@ -2,7 +2,7 @@ from clients import conf,log
 import time
 import easyocr
 from utils import photoUtils,sysUtils
-from server import mouseController,windowManipulator
+from server import mouseController,windowManipulator,photoRecognizer
 
 
 # startOperation="./images/items/startOperation.png"
@@ -11,12 +11,15 @@ from server import mouseController,windowManipulator
 
 class Operator:
     def __init__(self,myConfig):
+        self.conf = myConfig
+        self.logger = log.LoggingFactory.logger(__name__)
+        self.buttons = myConfig["buttons"]
         self.currentState = 0
         self.mouse = mouseController.MouseController()
         self.window = windowManipulator.WindowManipulator(myConfig["initWindowConfig"],myConfig["img"]["screenShotsPath"])
         self.newestPhotoPath = ""
-        self.logger = log.LoggingFactory.logger(__name__)
-        self.buttons = myConfig["buttons"]
+        self.startGame()
+
 
     def run(self):
         while True:
@@ -68,9 +71,8 @@ class Operator:
         return True
 
     def startGame(self):
-        self.clickButton("arkNightsApp")
-
-
+        self.waitingClickButton("arkNightsApp")
+        self.window.getGameWindow()
 
 class LifeCycleController:
     def __init__(self):
@@ -87,13 +89,24 @@ class LifeCycleController:
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    # window = windowManipulator.WindowManipulator(Myconfig["initWindowConfig"], Myconfig["img"]["screenShotsPath"])
 
     myOperator = Operator(Myconfig)
-    myOperator.startGame()
+    myOperator.run()
+    # myOperator.startGame()
     # myControl.run()
     # sysUtils.clearScreenShots()
 
+def testFunc():
+    Myconfig = conf.initConfig("./conf/conf.toml")
+    log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
+    # myrecognizer = photoRecognizer.PhotoRecognizer(Myconfig["img"]["screenShotsPath"]+"1.png")
+    # myrecognizer.recognize()
+    # myrecognizer
+    result = photoUtils.findPosition("./images/ScreenShots/1_5_23_30_26.png","./images/OperationIcon/arkNightsApp.png")
+
+    # window = windowManipulator.WindowManipulator(Myconfig["initWindowConfig"],Myconfig["img"]["screenShotsPath"])
+    # window.nomolizeWindowSize()
 
 if __name__ == "__main__":
     main()
+    # testFunc()

@@ -3,7 +3,7 @@ import easyocr
 class PhotoRecognizer:
     def __init__(self,imgPath):
         # 创建reader对象
-        self.reader = easyocr.Reader(['en','ch_sim'])
+        self.reader = easyocr.Reader(['ch_sim'])
         self.imgPath = imgPath
 
     def recognize(self):

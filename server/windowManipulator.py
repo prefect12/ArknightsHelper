@@ -1,7 +1,7 @@
 import time
 from PIL import ImageGrab
 from clients import log
-import win32gui
+import win32gui,win32console,win32con
 import os
 
 
@@ -11,11 +11,14 @@ class WindowManipulator:
         self.config = initWindowConfig
         self.screenShotPath = screenShotPath
         self.getEmulatorWindow()
+        self.nomolizeWindowSize()
         # self.startEmulator(self.config["retry"])
+
+
     def getEmulatorWindow(self):
         self.handle = win32gui.FindWindow(0, self.config["emulatorName"])
         if self.handle == 0:
-            self.logger.info("Can't find screen... || try to start emulator || number of retry%d", retry)
+            self.logger.info("Can't find screen... || try to start emulator ")
 
     def getGameWindow(self):
         self.handle = win32gui.FindWindow(0,self.config["emulatorGameName"])
@@ -23,7 +26,7 @@ class WindowManipulator:
     def startEmulator(self,retry):
         os.system(self.config["emulatorPath"])
         time.sleep(self.config["emulatorStartTime"])
-        self.logger("Start Emulator || try to get window...")
+        self.logger.info("Start Emulator || try to get window...")
         self.isEmulatorStart(retry-1)
 
     def isEmulatorStart(self,retry):
@@ -60,3 +63,7 @@ class WindowManipulator:
         myImg.save(imgName)
         self.logger.info("image save succeed||path=%s||spendTime=%sSecond",imgName,time.time()-startTime)
         return imgName
+
+    def nomolizeWindowSize(self):
+        win32gui.SetWindowPos(self.handle,win32con.HWND_TOPMOST,-1820, 449, 1400, 800, win32con.SWP_SHOWWINDOW)
+
