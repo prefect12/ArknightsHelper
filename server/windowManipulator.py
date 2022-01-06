@@ -8,35 +8,42 @@ import os
 class WindowManipulator:
     def __init__(self,initWindowConfig,screenShotPath):
         self.logger = log.LoggingFactory.logger(__name__)
-        self.config = initWindowConfig
-        self.screenShotPath = screenShotPath
-
-        for i in range(1,4):
-            ok = self.getEmulatorWindow()
-            if not ok:
-                self.startEmulator()
-
+        self.conf = initWindowConfig
+        self.screenShotPath = screenShotPath["screenShotsPath"]
+        if self.emulatorIsStart():
+            self.getEmulatorWindow()
+        else:
+            self.startEmulator()
+            time.sleep(self.conf["emulatorStartTime"])
+            self.getEmulatorWindow()
         self.nomolizeWindowSize()
 
+    def gameIsStart(self):
+        return win32gui.FindWindow(0, self.conf["emulatorGameName"]) != 0
+
+    def emulatorIsStart(self):
+        return win32gui.FindWindow(0, self.conf["emulatorName"]) != 0
 
     def getEmulatorWindow(self):
-        self.handle = win32gui.FindWindow(0, self.config["emulatorName"])
+        self.handle = win32gui.FindWindow(0, self.conf["emulatorName"])
         if self.handle == 0:
             self.logger.info("Can't find screen... || try to start emulator")
             return False
+        self.logger.info("getEmulatorWindow success...")
         return True
 
     def getGameWindow(self):
-        self.handle = win32gui.FindWindow(0,self.config["emulatorGameName"])
+        self.handle = win32gui.FindWindow(0,self.conf["emulatorGameName"])
         if self.handle == 0:
             self.logger.info("Can't find Game Window... || try to start game")
             return False
+        self.logger.info("getGameWindow success...")
         return True
 
     def startEmulator(self):
-        os.system(self.config["emulatorPath"])
-        time.sleep(self.config["emulatorStartTime"])
-        self.logger.info("Start Emulator... || try to get window")
+        os.system(self.conf["emulatorPath"])
+        time.sleep(self.conf["emulatorStartTime"])
+        self.logger.info("Start Emulator...")
 
     def setWindowForeground(self):
         win32gui.SetForegroundWindow(self.handle)
@@ -60,5 +67,8 @@ class WindowManipulator:
         return imgName
 
     def nomolizeWindowSize(self):
-        win32gui.SetWindowPos(self.handle,win32con.HWND_TOPMOST,-1820, 449, 1400, 800, win32con.SWP_SHOWWINDOW)
+        x,y = self.conf["startPos"][0], self.conf["startPos"][1]
+        length,high = self.conf["size"][0], self.conf["size"][1]
+        win32gui.SetWindowPos(self.handle,win32con.HWND_TOPMOST,x,y,length,high, win32con.SWP_SHOWWINDOW)
+        time.sleep(2)
 

@@ -3,11 +3,13 @@ emulatorName="MuMu模拟器"
 emulatorGameName = "明日方舟 - MuMu模拟器"
 emulatorPath="D:\\application\\mumu\\emulator\\nemu\\EmulatorShell\\NemuLauncher.exe"
 emulatorStartTime=30
-gameStartTime=30
 retry=3
-startPos=[-1920,349]
+startPos=[-1820,449]
 size=[1400, 800]
 
+[time]
+gameStartTime=15
+gameWatingTime=5
 
 [log]
 level="INFO"
@@ -26,3 +28,4 @@ startOperationInOperatorView="./images/OperationIcon/starOperationInOperatorView
 operationEnd="./images/OperationIcon/operationEnd.png"
 uploadingData="./images/OperationIcon/upLoadingData.png"
 arkNightsApp="./images/OperationIcon/arkNightsApp.png"
+homePage_WatingForWeakup="./images/OperationIcon/homePage_WatingForWeakup.png"

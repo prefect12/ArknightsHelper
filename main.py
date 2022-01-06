@@ -14,46 +14,13 @@ class Operator:
         self.logger = log.LoggingFactory.logger(__name__)
         self.buttons = myConfig["buttons"]
         self.mouse = mouseController.MouseController()
-        self.window = windowManipulator.WindowManipulator(myConfig["initWindowConfig"],myConfig["img"]["screenShotsPath"])
+        self.window = windowManipulator.WindowManipulator(self.conf["initWindowConfig"],self.conf["img"])
         self.newestPhotoPath = ""
         self.startGame()
 
 
-    def run(self):
-        while True:
-            if time.localtime(time.time()).tm_min % 3 == 0:
-                sysUtils.clearScreenShots()
-            self.waitingClickButton("startOperation")
-            self.waitingClickButton("startOperationInOperatorView")
-            self.waitingClickButton("operationEnd",timeWait=5)
 
-    def waitingClickButton(self,buttonIcon,timeWait=0):
-        while True:
-            result = self.clickButton(buttonIcon,timeWait)
-            if result == True:
-                self.logger.info("current Operation: Operation Truly End",)
-                break
-            time.sleep(5)
-        return True
-
-    def checkState(self):
-        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["startOperation"])
-        if x != -1 and y != -1:
-            self.currentState = 0
-
-        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["startOperationInOperatorView"])
-        if x != -1 and y != -1:
-            self.currentState = 1
-
-        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["operationEnd"])
-        if x != -1 and y != -1:
-            self.currentState = 2
-
-        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["uploadingData"])
-        if x != -1 and y != -1:
-            self.currentState = -1
-
-    def clickButton(self,buttonIcon,timeWait=0):
+    def __clickButton(self,buttonIcon,delay=0):
         buttonIconPath = self.buttons[buttonIcon]
         self.logger.info("current Operate:%s",buttonIcon)
         self.newestPhotoPath = self.window.screenShotForWindow()
@@ -63,14 +30,24 @@ class Operator:
             self.logger.info("Can't find button:%s",buttonIcon)
             return False
         self.mouse.move(x1 + moveX, y1 + moveY)
-        time.sleep(timeWait)
         self.mouse.leftClick()
-        time.sleep(1)
+        time.sleep(delay)
         return True
 
+    def __clickMiddleOfWindow(self,delay=0):
+        x1,y1,x2,y2 = self.window.getWindowPos()
+        self.mouse.move((x1+x2)/2,(y1+y2)/2)
+        self.mouse.leftClick()
+        time.sleep(5)
+
     def startGame(self):
-        self.waitingClickButton("arkNightsApp")
+        self.__clickButton("arkNightsApp",self.conf["time"]["gameStartTime"])
         self.window.getGameWindow()
+        self.window.nomolizeWindowSize()
+        time.sleep(self.conf["time"]["gameWatingTime"])
+        self.__clickMiddleOfWindow(5)
+        self.__clickButton("homePage_WatingForWeakup",10)
+
 
 class LifeCycleController:
     def __init__(self):
@@ -89,18 +66,16 @@ def main():
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
 
     myOperator = Operator(Myconfig)
-    myOperator.run()
-    # myOperator.startGame()
-    # myControl.run()
-    # sysUtils.clearScreenShots()
+
+
 
 def testFunc():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    # myrecognizer = photoRecognizer.PhotoRecognizer(Myconfig["img"]["screenShotsPath"]+"1.png")
+    # myrecognizer = photoRecognizer.PhotoRecognizer(Myconfig["img"]["screenShotsPath"]+"homePage_WatingForWeakup.png")
     # myrecognizer.recognize()
     # myrecognizer
-    result = photoSearcher.findPosition("./images/ScreenShots/1_5_23_30_26.png","./images/OperationIcon/arkNightsApp.png")
+    result = photoSearcher.findPosition("./images/ScreenShots/1_7_0_55_16.png","./images/OperationIcon/arkNightsApp.png")
 
     # window = windowManipulator.WindowManipulator(Myconfig["initWindowConfig"],Myconfig["img"]["screenShotsPath"])
     # window.nomolizeWindowSize()

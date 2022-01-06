@@ -44,3 +44,5 @@ class MouseController:
 
     def release(self):
         self.m.release('left')
+
+
