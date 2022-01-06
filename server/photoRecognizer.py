@@ -21,3 +21,4 @@ class PhotoRecognizer:
     #return location of a level
     def recognizeLevel(self):
         pass
+

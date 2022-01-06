@@ -1,8 +1,7 @@
 from clients import conf,log
 import time
-import easyocr
-from utils import photoUtils,sysUtils
-from server import mouseController,windowManipulator,photoRecognizer
+from utils import sysUtils
+from server import mouseController,windowManipulator,photoRecognizer,photoSearcher
 
 
 # startOperation="./images/items/startOperation.png"
@@ -14,7 +13,6 @@ class Operator:
         self.conf = myConfig
         self.logger = log.LoggingFactory.logger(__name__)
         self.buttons = myConfig["buttons"]
-        self.currentState = 0
         self.mouse = mouseController.MouseController()
         self.window = windowManipulator.WindowManipulator(myConfig["initWindowConfig"],myConfig["img"]["screenShotsPath"])
         self.newestPhotoPath = ""
@@ -39,19 +37,19 @@ class Operator:
         return True
 
     def checkState(self):
-        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["startOperation"])
+        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["startOperation"])
         if x != -1 and y != -1:
             self.currentState = 0
 
-        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["startOperationInOperatorView"])
+        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["startOperationInOperatorView"])
         if x != -1 and y != -1:
             self.currentState = 1
 
-        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["operationEnd"])
+        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["operationEnd"])
         if x != -1 and y != -1:
             self.currentState = 2
 
-        x,y = photoUtils.findPosition(self.newestPhotoPath, self.buttons["uploadingData"])
+        x,y = photoSearcher.findPosition(self.newestPhotoPath, self.buttons["uploadingData"])
         if x != -1 and y != -1:
             self.currentState = -1
 
@@ -59,7 +57,7 @@ class Operator:
         buttonIconPath = self.buttons[buttonIcon]
         self.logger.info("current Operate:%s",buttonIcon)
         self.newestPhotoPath = self.window.screenShotForWindow()
-        moveX, moveY = photoUtils.findPosition(self.newestPhotoPath, buttonIconPath)
+        moveX, moveY = photoSearcher.findPosition(self.newestPhotoPath, buttonIconPath)
         x1, y1 = self.window.getWindowLeftUpCornerPos()
         if moveX == -1 and moveY == -1:
             self.logger.info("Can't find button:%s",buttonIcon)
@@ -102,7 +100,7 @@ def testFunc():
     # myrecognizer = photoRecognizer.PhotoRecognizer(Myconfig["img"]["screenShotsPath"]+"1.png")
     # myrecognizer.recognize()
     # myrecognizer
-    result = photoUtils.findPosition("./images/ScreenShots/1_5_23_30_26.png","./images/OperationIcon/arkNightsApp.png")
+    result = photoSearcher.findPosition("./images/ScreenShots/1_5_23_30_26.png","./images/OperationIcon/arkNightsApp.png")
 
     # window = windowManipulator.WindowManipulator(Myconfig["initWindowConfig"],Myconfig["img"]["screenShotsPath"])
     # window.nomolizeWindowSize()
