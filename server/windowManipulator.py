@@ -10,12 +10,15 @@ class WindowManipulator:
         self.logger = log.LoggingFactory.logger(__name__)
         self.conf = initWindowConfig
         self.screenShotPath = screenShotPath["screenShotsPath"]
-        if self.emulatorIsStart():
-            self.getEmulatorWindow()
+        if self.gameIsStart():
+            self.getGameWindow()
         else:
-            self.startEmulator()
-            time.sleep(self.conf["emulatorStartTime"])
-            self.getEmulatorWindow()
+            if self.emulatorIsStart():
+                self.getEmulatorWindow()
+            else:
+                self.startEmulator()
+                time.sleep(self.conf["emulatorStartTime"])
+                self.getEmulatorWindow()
         self.nomolizeWindowSize()
 
     def gameIsStart(self):
