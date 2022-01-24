@@ -1,13 +1,13 @@
 import easyocr
 
 class PhotoRecognizer:
-    def __init__(self,imgPath):
+    def __init__(self):
         # 创建reader对象
         self.reader = easyocr.Reader(['ch_sim'])
-        self.imgPath = imgPath
 
-    def recognize(self):
-        result = self.reader.readtext(self.imgPath)
+
+    def recognize(self,imgPath):
+        result = self.reader.readtext(imgPath)
         for i in result:
             print(i)
 

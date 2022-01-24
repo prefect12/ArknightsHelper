@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f81576b-909f-4f47-b637-76a5ad467594" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/OperationIcon/closePost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/OperationIcon/collectStoreCredit.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/conf.toml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/windowManipulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/windowManipulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/photoRecognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/photoRecognizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,15 +19,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ArknightsHelper$photoUtils.coverage" NAME="photoUtils Coverage Results" MODIFIED="1641212048719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1642003447020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1643037242630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="153">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -34,11 +35,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photoUtils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/photoUtils.py">
+      <file leaf-file-name="operator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/operator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="264">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.toml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/conf.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -46,7 +68,7 @@
       <file leaf-file-name="photoSearcher.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/photoSearcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-462">
+            <state>
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -57,45 +79,8 @@
       <file leaf-file-name="photoRecognizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operationEnd.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/OperationIcon/operationEnd.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="startOperation.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/OperationIcon/startOperation.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="decoder.py" pinned="false" current-in-tab="false">
-        <entry file="file://I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/toml/decoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/conf.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mouseController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/mouseController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,8 +88,11 @@
       <file leaf-file-name="windowManipulator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1027">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,11 +139,13 @@
         <option value="$PROJECT_DIR$/clients/conf.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/utils/photoUtils.py" />
-        <option value="$PROJECT_DIR$/server/photoRecognizer.py" />
         <option value="$PROJECT_DIR$/server/mouseController.py" />
-        <option value="$PROJECT_DIR$/conf/conf.toml" />
         <option value="$PROJECT_DIR$/server/windowManipulator.py" />
+        <option value="$PROJECT_DIR$/conf/conf.toml" />
+        <option value="$PROJECT_DIR$/server/Operator.py" />
+        <option value="$PROJECT_DIR$/server/photoRecognizer.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/server/operator.py" />
       </list>
     </option>
   </component>
@@ -166,10 +156,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="182" />
+    <option name="x" value="252" />
     <option name="width" value="1738" />
-    <option name="height" value="1104" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -183,26 +172,6 @@
             <path>
               <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,19 +188,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="I:\projects\ArknightsHelper\images\OperationIcon" />
-      <recent name="I:\projects\ArknightsHelper\images\ScreenShots" />
-      <recent name="I:\projects\ArknightsHelper\images\items" />
-      <recent name="I:\projects\ArknightsHelper\imgs\items" />
-      <recent name="I:\projects\ArknightsHelper\imgs\ScreenShots" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="I:\projects\ArknightsHelper\Intro" />
       <recent name="I:\projects\ArknightsHelper\server" />
       <recent name="I:\projects\ArknightsHelper\images\OperationIcon" />
       <recent name="I:\projects\ArknightsHelper\imgs\items" />
       <recent name="I:\projects\ArknightsHelper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\projects\ArknightsHelper\images\OperationIcon" />
+      <recent name="I:\projects\ArknightsHelper\images\" />
+      <recent name="I:\projects\ArknightsHelper\images\ScreenShots" />
+      <recent name="I:\projects\ArknightsHelper\images\items" />
+      <recent name="I:\projects\ArknightsHelper\imgs\items" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,29 +288,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="182" width="1738" height="1104" extended-state="0" />
+    <frame x="252" y="0" width="1738" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2839378" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32994923" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3292789" />
-      <window_info active="true" anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="11" visible="true" weight="0.46217617" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.24731824" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32805908" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28375527" />
+      <window_info active="true" anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="11" visible="true" weight="0.46097046" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.2592372" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.15618336" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41139898" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41139898" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32805908" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32994923" />
     </layout>
   </component>
@@ -357,6 +327,117 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/photoSearcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/photoUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/photoSearcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/toml/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mouseController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
@@ -500,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/sysUtils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -528,28 +602,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="27" column="12" selection-start-line="27" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/OperationIcon/starOperationInOperatorView.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://I:/Python/anaconda/envs/Scrapy Env/Lib/site-packages/toml/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="2794">
           <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/OperationIcon/operationEnd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/OperationIcon/startOperation.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/clients/conf.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -560,15 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/mouseController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="638">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1027">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -579,26 +630,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/photoSearcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
+        <state>
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/photoRecognizer.py">
+    <entry file="file://$PROJECT_DIR$/clients/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="153">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/windowManipulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
