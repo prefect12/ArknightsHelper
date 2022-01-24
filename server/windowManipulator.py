@@ -74,4 +74,5 @@ class WindowManipulator:
         length,high = self.conf["size"][0], self.conf["size"][1]
         win32gui.SetWindowPos(self.handle,win32con.HWND_TOPMOST,x,y,length,high, win32con.SWP_SHOWWINDOW)
         time.sleep(2)
+        return True
 
