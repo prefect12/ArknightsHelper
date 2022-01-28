@@ -25,7 +25,6 @@ class Operator:
         i = 0
         startTime = time.time()
         while i < len(self.workingQueue):
-            print(i)
             if self.workingQueue[i]():
                 i += 1
             else:
@@ -98,7 +97,7 @@ class Operator:
                 return False
             if skip == True:
                 self.logger.info("click button skip!!! %s",buttonIcon)
-                return result
+                return True
         return True
 
 
@@ -107,15 +106,17 @@ class Operator:
             self.addJob(warpTryClick(self.tryToClickButton,"startOperation"))
             self.addJob(warpTryClick(self.tryToClickButton,"startOperationInOperatorView"))
             self.addJob(warpTryClick(self.tryToClickButton,"operationEnd",waiting=10,delay=10))
+        self.run(__name__)
 
     #collection items from base
     #基建收菜
     def collectBase(self):
         self.addJob(warpTryClick(self.tryToClickButton,"base",skip=True))
-        self.addJob(warpTryClick(self.tryToClickButton,"baseRing",waiting=5))
+        self.addJob(warpTryClick(self.tryToClickButton,"baseRing",waiting=5,skip=True))
         for i in range(3):
             self.addJob(warpTryClick(self.tryToClickButton,"baseTodoList",xOffset=100,skip=True))
-        self.navigateToHome()
+            self.addJob(self.navigateToHome)
+        self.run(__name__)
 
     #daily task collection
     #任务收菜
@@ -123,7 +124,8 @@ class Operator:
         self.addJob(warpTryClick(self.tryToClickButton,"task",skip=True))
         self.addJob(warpTryClick(self.tryToClickButton,"taskCollectAll",skip=True))
         self.addJob(self.__clickMiddleDownOfWindow)
-        self.navigateToHome()
+        self.addJob(self.navigateToHome)
+        self.run(__name__)
 
     #信用点数全流程
     def creditOperation(self):

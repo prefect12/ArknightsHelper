@@ -28,13 +28,13 @@ def main():
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
 
     myOperator = operator.Operator(Myconfig)
-    myOperator.collectFrientPoints()
+    # myOperator.collectFrientPoints()
     # myOperator.creditOperation()
     # myOperator.buyByCridit()
     # myOperator.navigateToHome()
     # myOperator.collectBase()
     # myOperator.collectTaskItem()
-    # myOperator.runOperation()
+    myOperator.runOperation()
 
     # myOperator.navigateToHome()
     

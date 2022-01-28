@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f81576b-909f-4f47-b637-76a5ad467594" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/conf/conf.toml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/windowManipulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/windowManipulator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +14,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ArknightsHelper$photoUtils.coverage" NAME="photoUtils Coverage Results" MODIFIED="1641212048719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1643047917837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArknightsHelper$main.coverage" NAME="main Coverage Results" MODIFIED="1643376764450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="326">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -36,13 +33,18 @@
       <file leaf-file-name="operator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/operator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+            <state relative-caret-position="241">
+              <caret line="107" column="95" lean-forward="true" selection-start-line="107" selection-start-column="95" selection-end-line="107" selection-end-column="95" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseTodoList.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/OperationIcon/baseTodoList.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="time.py" pinned="false" current-in-tab="false">
@@ -132,6 +134,7 @@
       <find>self.__clickMiddleDownOfWindow()</find>
       <find>warp</find>
       <find>warpClick</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>images</replace>
@@ -164,10 +167,10 @@
         <option value="$PROJECT_DIR$/server/mouseController.py" />
         <option value="$PROJECT_DIR$/server/Operator.py" />
         <option value="$PROJECT_DIR$/server/photoRecognizer.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/server/windowManipulator.py" />
-        <option value="$PROJECT_DIR$/server/operator.py" />
         <option value="$PROJECT_DIR$/conf/conf.toml" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/server/operator.py" />
       </list>
     </option>
   </component>
@@ -199,6 +202,17 @@
               <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArknightsHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArknightsHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="OperationIcon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,29 +330,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="252" y="0" width="1738" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32805908" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28375527" />
-      <window_info anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="11" weight="0.46097046" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32805908" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.28375527" />
+      <window_info active="true" anchor="bottom" x="698" y="503" width="936" height="477" id="Terminal" order="10" visible="true" weight="0.46097046" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.2592372" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32805908" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.15618336" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41139898" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.41139898" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32994923" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32994923" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,10 +718,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/OperationIcon/baseTodoList.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="326">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -715,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/operator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+        <state relative-caret-position="241">
+          <caret line="107" column="95" lean-forward="true" selection-start-line="107" selection-start-column="95" selection-end-line="107" selection-end-column="95" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
