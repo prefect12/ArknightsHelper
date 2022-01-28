@@ -88,8 +88,11 @@ class Operator:
 
         for i in range(round):
             self.tryToClickButton("startOperation")
+            if self.tryToClickButton("takeFuckingDrug",delay=5,skip=True):
+                self.tryToClickButton("startOperation")
+
             self.tryToClickButton("startOperationInOperatorView")
-            self.tryToClickButton("operationEnd",waiting=10,delay=10)
+            self.tryToClickButton("operationEnd",waiting=10,delay=10,retryGap=10)
 
     #collection items from base
     #基建收菜
@@ -153,6 +156,7 @@ class Operator:
     def runWeekTasks_elimination(self):
         self.gotoEliminatePage()
         self.eliminateOperation()
+        self.navigateToHome()
 
     #执行任务
     def eliminateOperation(self):
@@ -161,7 +165,8 @@ class Operator:
         while self.weekTaskElimination != 0:
             self.tryToClickButton("startOperation")
             self.tryToClickButton("startOperationInOperatorView")
-            self.tryToClickButton("operationEnd",timeOut=800, waiting=10, delay=10,retryGap=10)
+            self.tryToClickButton("eliminateFinish",timeOut=800, waiting=10, delay=10,retryGap=10)
+            self.tryToClickButton("operationEnd",waiting=10, delay=10)
             self.recognizeWeekTasks_eliminate()
 
     #进入剿灭界面

@@ -35,7 +35,7 @@ def main():
     myOperator = operator.Operator(Myconfig)
     # myOperator.runOperation(-1)
     # myOperator.tryToClickButton("startOperationInOperatorView")
-    myOperator.runWeekTasks_elimination()
+    myOperator.runOperation()
     # myOperator.collectFrientPoints()
     # myOperator.creditOperation()
     # myOperator.navigateToHome()
