@@ -9,14 +9,16 @@ class LifeCycleController:
     def __init__(self,conf):
         self.conf = conf
         self.logger = log.LoggingFactory(__name__)
-        # self.recognizer = photoRecognizer.PhotoRecognizer()
+        self.myOperator = operator.Operator(conf)
+
 
     def getInfoFromHomePage(self):
-        pass
+        results = self.myOperator.recognizeHomePage()
 
 
     def checkCurrentStat(self):
         pass
+
 
     def move(self,curState):
         pass
@@ -26,13 +28,19 @@ class LifeCycleController:
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
+    # controller = LifeCycleController(Myconfig)
 
-    sysUtils.clearScreenShots()
-    # myOperator = operator.Operator(Myconfig)
+
+    # sysUtils.clearScreenShots()
+    myOperator = operator.Operator(Myconfig)
+    # myOperator.runOperation(-1)
+    # myOperator.tryToClickButton("startOperationInOperatorView")
+    myOperator.runWeekTasks_elimination()
     # myOperator.collectFrientPoints()
     # myOperator.creditOperation()
-    # myOperator.buyByCridit()
     # myOperator.navigateToHome()
+    # myOperator.buyByCridit()
+
     # myOperator.collectBase()
     # myOperator.collectTaskItem()
     # myOperator.runOperation()

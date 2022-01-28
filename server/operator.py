@@ -15,6 +15,7 @@ class Operator:
         self.recognizer = photoRecognizer.PhotoRecognizer()
         self.workingQueue = []
         self.newestPhotoPath = ""
+        self.weekTaskElimination = 1<<10
 
         if not self.window.gameIsStart():
             self.startGame()
@@ -22,7 +23,6 @@ class Operator:
 
     #delay:time to sleep after press button
     #wating:time to sleep before press button
-
     def __clickButton(self,buttonIcon,xOffset=0,yOffset=0,waiting=0,delay=0):
         buttonIconPath = self.buttons[buttonIcon]
         self.logger.info("current Operate:%s",buttonIcon)
@@ -32,8 +32,8 @@ class Operator:
         if moveX == -1 and moveY == -1:
             self.logger.info("Can't find button:%s",buttonIcon)
             return False
-        self.mouse.move(x1 + moveX + xOffset, y1 + moveY + yOffset)
         time.sleep(waiting)
+        self.mouse.move(x1 + moveX + xOffset, y1 + moveY + yOffset)
         self.mouse.leftClick()
         time.sleep(delay)
         return True
@@ -54,20 +54,20 @@ class Operator:
         return True
 
     def startGame(self):
-        self.tryToClickButton("arkNightsApp",waiting=self.conf["time"]["gameStartTime"])
+        self.tryToClickButton("arkNightsApp",delay=self.conf["time"]["gameStartTime"])
         self.window.getGameWindow()
         self.window.nomolizeWindowSize()
         time.sleep(self.conf["time"]["gameWatingTime"])
         self.__clickMiddleOfWindow()
         self.tryToClickButton("homePage_WatingForWeakup",delay=10)
         self.tryToClickButton("closePost")
-        self.run("startGame")
+
 
     def checkState(self,buttonIcon):
         pass
 
     # skip:失败一次过后直接跳过
-    def tryToClickButton(self,buttonIcon,xOffset=0,yOffset=0,waiting=0,delay=3,timeOut=300,skip=False):
+    def tryToClickButton(self,buttonIcon,xOffset=0,yOffset=0,waiting=0,delay=3,timeOut=300,skip=False,retryGap=3):
         result = False
         startTime = time.time()
         while result != True:
@@ -78,10 +78,14 @@ class Operator:
             if skip == True:
                 self.logger.info("click button skip!!! %s",buttonIcon)
                 return result
+            time.sleep(retryGap)
         return True
 
 
     def runOperation(self,round=10):
+        if round == -1:
+            round = 1<<10
+
         for i in range(round):
             self.tryToClickButton("startOperation")
             self.tryToClickButton("startOperationInOperatorView")
@@ -114,12 +118,11 @@ class Operator:
     # 收集信用点数
     def collectFrientPoints(self):
         self.tryToClickButton("friendPage")
-        self.tryToClickButton( "friendList")
-        self.tryToClickButton( "visitFriend")
-
+        self.tryToClickButton("friendList")
+        self.tryToClickButton("visitFriend")
         for i in range(10):
-            self.tryToClickButton( "visitFriendNext")
-        self.run("collectFrientPoints")
+            self.tryToClickButton("visitFriendNext",skip=True)
+
 
     #返回主界面
     def navigateToHome(self):
@@ -133,12 +136,45 @@ class Operator:
         self.tryToClickButton("collectStoreCredit",skip=True)
         self.__clickMiddleDownOfWindow()
         for i in range(10):
-            self.tryToClickButton("storeCreditItem",delay=1,skip=True)
-            self.tryToClickButton("storeCreditItemBuy",delay=1,skip=True)
+            self.tryToClickButton("storeCreditItem",delay=3,skip=True)
+            self.tryToClickButton("storeCreditItemBuy",delay=3,skip=True)
             self.__clickMiddleDownOfWindow()
 
+    # 识别桌面
     def recognizeHomePage(self):
         self.logger.info("recognizeHomePage")
         newestPhotoPath = self.window.screenShotForWindow()
-        self.recognizer.recognize(newestPhotoPath)
+        results = self.recognizer.recognize(newestPhotoPath)
+        for r in results:
+            print(r)
+        return results
+
+    #执行每周剿灭任务全流程
+    def runWeekTasks_elimination(self):
+        self.gotoEliminatePage()
+        self.eliminateOperation()
+
+    #执行任务
+    def eliminateOperation(self):
+        self.recognizeWeekTasks_eliminate()
+        self.logger.info("eliminateOperation||gap = %d",self.weekTaskElimination)
+        while self.weekTaskElimination != 0:
+            self.tryToClickButton("startOperation")
+            self.tryToClickButton("startOperationInOperatorView")
+            self.tryToClickButton("operationEnd",timeOut=800, waiting=10, delay=10,retryGap=10)
+            self.recognizeWeekTasks_eliminate()
+
+    #进入剿灭界面
+    def gotoEliminatePage(self):
+        self.logger.info("gotoEliminatePage")
+        self.tryToClickButton("terminal",waiting=3)
+        self.tryToClickButton("eliminateOperation")
+
+    #识别当前是否已经完成本周任务
+    def recognizeWeekTasks_eliminate(self):
+        newestPhotoPath = self.window.screenShotForWindow()
+        results = self.recognizer.recognize(newestPhotoPath)
+        result = [int(i) for i in [results[i+1][-2] for i in range(len(results)) if results[i][-2] == "每周报酬合成玉"][0].split("/")]
+        self.weekTaskElimination = result[0] - result[1]
+        self.logger.info("recognizeOperationPage||result = %d",self.weekTaskElimination)
 

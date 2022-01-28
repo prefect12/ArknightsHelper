@@ -8,8 +8,7 @@ class PhotoRecognizer:
 
     def recognize(self,imgPath):
         result = self.reader.readtext(imgPath)
-        for i in result:
-            print(i)
+        return result
 
     def recognizeItemNum(self):
         pass
