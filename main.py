@@ -33,9 +33,11 @@ def main():
 
     # sysUtils.clearScreenShots()
     myOperator = operator.Operator(Myconfig)
-    # myOperator.runOperation(-1)
+    # myOperator.creditOperation()
+    # myOperator.collectBase()
+    myOperator.runOperation(-1)
     # myOperator.tryToClickButton("startOperationInOperatorView")
-    myOperator.runOperation()
+    # myOperator.runOperation()
     # myOperator.collectFrientPoints()
     # myOperator.creditOperation()
     # myOperator.navigateToHome()

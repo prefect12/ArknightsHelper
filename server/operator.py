@@ -20,9 +20,8 @@ class Operator:
         if not self.window.gameIsStart():
             self.startGame()
 
-
-    #delay:time to sleep after press button
     #wating:time to sleep before press button
+    #delay:time to sleep after press button
     def __clickButton(self,buttonIcon,xOffset=0,yOffset=0,waiting=0,delay=0):
         buttonIconPath = self.buttons[buttonIcon]
         self.logger.info("current Operate:%s",buttonIcon)
@@ -84,7 +83,7 @@ class Operator:
 
     def runOperation(self,round=10):
         if round == -1:
-            round = 1<<10
+            round = 100000
 
         for i in range(round):
             self.tryToClickButton("startOperation")
@@ -92,7 +91,7 @@ class Operator:
                 self.tryToClickButton("startOperation")
 
             self.tryToClickButton("startOperationInOperatorView")
-            self.tryToClickButton("operationEnd",waiting=10,delay=10,retryGap=10)
+            self.tryToClickButton("operationEnd",waiting=5,delay=5,retryGap=10)
 
     #collection items from base
     #基建收菜
@@ -123,7 +122,7 @@ class Operator:
         self.tryToClickButton("friendPage")
         self.tryToClickButton("friendList")
         self.tryToClickButton("visitFriend")
-        for i in range(10):
+        for i in range(15):
             self.tryToClickButton("visitFriendNext",skip=True)
 
 
