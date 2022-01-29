@@ -32,8 +32,10 @@ class Operator:
             self.logger.info("Can't find button:%s",buttonIcon)
             return False
         time.sleep(waiting)
+        localPos = self.mouse.getPostion()
         self.mouse.move(x1 + moveX + xOffset, y1 + moveY + yOffset)
         self.mouse.leftClick()
+        self.mouse.move(localPos[0],localPos[1])
         time.sleep(delay)
         return True
 

@@ -4,8 +4,9 @@ emulatorGameName = "明日方舟 - MuMu模拟器"
 emulatorPath="D:\\application\\mumu\\emulator\\nemu\\EmulatorShell\\NemuLauncher.exe"
 emulatorStartTime=20
 retry=3
-startPos=[100,100]
+startPos=[-1820,449]
 size=[1400, 800]
+#antiDetect=True
 
 [time]
 gameStartTime=10
