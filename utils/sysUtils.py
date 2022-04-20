@@ -2,6 +2,7 @@ import os
 import glob
 from clients import log
 
+# todo: 定时任务启动
 def clearScreenShots():
     logger = log.LoggingFactory.logger(__name__)
     fileNames =  glob.glob("./images/ScreenShots/*")

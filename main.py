@@ -4,7 +4,7 @@ from utils import sysUtils
 from server import photoSearcher,operator,photoRecognizer
 
 
-
+# todo :通过控制器进行控制
 class LifeCycleController:
     def __init__(self,conf):
         self.conf = conf
@@ -28,14 +28,13 @@ class LifeCycleController:
 def main():
     Myconfig = conf.initConfig("./conf/conf.toml")
     log.LoggingFactory = log.InitLoggingFacotory(Myconfig["log"])
-    # controller = LifeCycleController(Myconfig)
 
-
-    # sysUtils.clearScreenShots()
-    myOperator = operator.Operator(Myconfig)
+    sysUtils.clearScreenShots()
+    # myOperator = operator.Operator(Myconfig)
     # myOperator.creditOperation()
     # myOperator.collectBase()
-    myOperator.runOperation(-1)
+    # myOperator.runOperation(-1)
+
     # myOperator.tryToClickButton("startOperationInOperatorView")
     # myOperator.runOperation()
     # myOperator.collectFrientPoints()
@@ -44,7 +43,7 @@ def main():
     # myOperator.buyByCridit()
 
     # myOperator.collectBase()
-    # myOperator.collectTaskItem()
+
     # myOperator.runOperation()
 
     # myOperator.navigateToHome()

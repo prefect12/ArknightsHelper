@@ -16,6 +16,7 @@ class Operator:
         self.workingQueue = []
         self.newestPhotoPath = ""
         self.weekTaskElimination = 1<<10
+        self.takeDrug = int(myConfig["initWindowConfig"]["takeDrag"])
 
         if not self.window.gameIsStart():
             self.startGame()
@@ -36,6 +37,7 @@ class Operator:
         self.mouse.move(x1 + moveX + xOffset, y1 + moveY + yOffset)
         self.mouse.leftClick()
         self.mouse.move(localPos[0],localPos[1])
+        self.mouse.leftClick()
         time.sleep(delay)
         return True
 
@@ -61,7 +63,7 @@ class Operator:
         time.sleep(self.conf["time"]["gameWatingTime"])
         self.__clickMiddleOfWindow()
         self.tryToClickButton("homePage_WatingForWeakup",delay=10)
-        self.tryToClickButton("closePost")
+        self.tryToClickButton("closePost",skip=True)
 
 
     def checkState(self,buttonIcon):
@@ -89,8 +91,9 @@ class Operator:
 
         for i in range(round):
             self.tryToClickButton("startOperation")
-            if self.tryToClickButton("takeFuckingDrug",delay=5,skip=True):
+            if self.takeDrug and self.tryToClickButton("takeFuckingDrug",delay=5,skip=True):
                 self.tryToClickButton("startOperation")
+
 
             self.tryToClickButton("startOperationInOperatorView")
             self.tryToClickButton("operationEnd",waiting=5,delay=5,retryGap=10)
@@ -153,6 +156,13 @@ class Operator:
             print(r)
         return results
 
+    def routeToLastTask(self):
+        self.tryToClickButton("terminal", waiting=3)
+        newestPhotoPath = self.window.screenShotForWindow()
+        results = self.recognizer.recognize(newestPhotoPath)
+        for i in results:
+            print(i)
+
     #执行每周剿灭任务全流程
     def runWeekTasks_elimination(self):
         self.gotoEliminatePage()
@@ -180,7 +190,13 @@ class Operator:
     def recognizeWeekTasks_eliminate(self):
         newestPhotoPath = self.window.screenShotForWindow()
         results = self.recognizer.recognize(newestPhotoPath)
-        result = [int(i) for i in [results[i+1][-2] for i in range(len(results)) if results[i][-2] == "每周报酬合成玉"][0].split("/")]
-        self.weekTaskElimination = result[0] - result[1]
+
+        result = [i[-2] for i in results if "1800" in i[1]][0]
+        total = int(result[len(result)-4:])
+        current = int(result[:len(result)-5])
+        # print(result,total,current)
+
+        # result = [int(i) for i in [results[i+1][-2] for i in range(len(results)) if results[i][-2] == "每周报酬合成玉"][0].split("/")]
+        self.weekTaskElimination = total - current
         self.logger.info("recognizeOperationPage||result = %d",self.weekTaskElimination)
 

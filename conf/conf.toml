@@ -4,9 +4,12 @@ emulatorGameName = "明日方舟 - MuMu模拟器"
 emulatorPath="D:\\application\\mumu\\emulator\\nemu\\EmulatorShell\\NemuLauncher.exe"
 emulatorStartTime=20
 retry=3
-startPos=[-1820,449]
-size=[1400, 800]
+startPos=[-1800,400]
+takeDrag=1
 #antiDetect=True
+
+#Do not change the size of window!!! other wise image recognze will not work!!!
+size=[1400, 800]
 
 [time]
 gameStartTime=10
